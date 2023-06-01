@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Incriptador</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://fonts.google.com/share?selection.family=Inter:wght@100;200;300;400;500;600;700;800;900">
+    </head>
+    <body>
+        <header>
+            <img class="logo" src="imagenes/logo.png" alt="logo">
+        </header>
+        <main>
+            <section class="seccion1">
+                <div class="cont-cajitatexto">
+                    <textarea placeholder="Ingrese el texto aqui" class="cajitatexto"></textarea>
+                </div>
+                <div>
+                    <img class="group" src="imagenes/group.png" alt="group">
+                    <p class="palabras">Solo letras minúsculas y sin acentos</p>
+                </div>
+                <div class="contenedor-botones">
+                    <input type="button" class="boton-encriptar" value="Encriptar">
+                    <input type="button" class="boton-desencriptar" value="Desencriptar">
+                </div>
+            </section>
+            <section class="seccion2">
+                <div class="cont-munequito">
+                    <img class="munecos" src="imagenes/Muñeco.png" alt="muñeco">
+                </div>
+                <div class="resultado-texto">
+                    <p class="texto-ingresado">Ingresa el texto que desees encriptar o desencriptar</p>
+                </div>
+                <div class="mensaje-copiado">
+                    <input type="button" class="boton-copiar" value="Copiar">
+                </div>
+                <div class="cont-mensaje">
+                    <p class="MenNoEncontrado" >Ningún mensaje fue encontrado</p>
+                </div>
+                <div class="final-texto">
+                    <p class="texto-resultado"></p>
+                </div>
+            </section>
+        </main>
+        <script src="main.js"></script>
+    </body>
+</html>
